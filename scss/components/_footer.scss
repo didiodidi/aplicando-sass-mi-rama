@@ -1,8 +1,9 @@
+@import '../base/colores';
 .footer {
     display: block;
     text-align: center;
-    background-color: #2D3047;
-    color: #aab2eb;
+    background-color: $footer;
+    color: $footertxt;
     height: 100%;
     p {
         padding: 15px;
