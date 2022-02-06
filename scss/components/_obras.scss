@@ -3,7 +3,7 @@
 .obras{
     width: 100%;
     height: 100%;
-    background-color: #EAFFFD;
+    background-color: $trabajos;
     h2{
         width: 100%;
         height: 10rem;
@@ -81,9 +81,15 @@
                         padding-bottom: 30px;
                     }
                     input{
-                        background-color: royalblue;
+                        background-color: $footer;
                         padding: 10px;
-                        color: red;
+                        color: $footertxt;
+                        border: none;
+                        border-radius: 20px 10px;
+                        cursor: grab;
+                            &:focus{
+                                background-color: $bio;
+                            }
                     }
             }
             .gridObra1{
