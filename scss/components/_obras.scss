@@ -15,6 +15,7 @@
         margin: 0 auto;
     }
     .trabajos-container__escultura{
+    outline: none   ;
     display: subgrid;
     grid-template-columns: 1fr;
     grid-template-rows: 400px;
@@ -81,6 +82,7 @@
                         padding-bottom: 30px;
                     }
                     input{
+                        outline: none;
                         background-color: $footer;
                         padding: 10px;
                         color: $footertxt;

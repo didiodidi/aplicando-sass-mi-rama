@@ -5,6 +5,7 @@
   font-family: "Montserrat";
   font-weight: 300;
   box-sizing: border-box;
+  outline: none ;
 }
 
 .titulo-container {
@@ -378,6 +379,7 @@ nav .nav-li li a:hover {
   margin: 0 auto;
 }
 .obras .trabajos-container__escultura {
+  outline: none;
   display: subgrid;
   grid-template-columns: 1fr;
   grid-template-rows: 400px;
@@ -445,6 +447,7 @@ nav .nav-li li a:hover {
   padding-bottom: 30px;
 }
 .obras .trabajos-container__obra .trabajosObra input {
+  outline: none;
   background-color: #2D3047;
   padding: 10px;
   color: #aab2eb;
