@@ -429,6 +429,7 @@ nav .nav-li li a:hover {
   padding: 10px;
   margin: 20px;
   text-align: center;
+  /* Uso de mixin en el input */
 }
 .obras .trabajos-container__obra .trabajosObra img {
   max-width: 250px;
@@ -447,12 +448,14 @@ nav .nav-li li a:hover {
   padding-bottom: 30px;
 }
 .obras .trabajos-container__obra .trabajosObra input {
-  outline: none;
-  background-color: #2D3047;
   padding: 10px;
+  border-radius: 20px 10px;
+  height: 3rem;
+  background-color: #2D3047;
+  /* padding: 10px; */
   color: #aab2eb;
   border: none;
-  border-radius: 20px 10px;
+  /* border-radius: 20px 10px; */
   cursor: grab;
 }
 .obras .trabajos-container__obra .trabajosObra input:hover {

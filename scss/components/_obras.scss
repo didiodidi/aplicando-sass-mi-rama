@@ -1,4 +1,5 @@
 @import '../base/colores';
+@import '../base/mixins';
 
 .obras{
     width: 100%;
@@ -81,13 +82,17 @@
                     p{
                         padding-bottom: 30px;
                     }
+
+
+                    /* Uso de mixin en el input */
+
                     input{
-                        outline: none;
+                        @include botones (10px , 20px 10px , 3rem);
                         background-color: $footer;
-                        padding: 10px;
+                        /* padding: 10px; */
                         color: $footertxt;
                         border: none;
-                        border-radius: 20px 10px;
+                        /* border-radius: 20px 10px; */
                         cursor: grab;
                             &:hover{
                                 background-color: #5a5f85;
