@@ -452,6 +452,13 @@ nav .nav-li li a:hover {
   border-radius: 20px 10px;
   cursor: grab;
 }
+.obras .trabajos-container__obra .trabajosObra input:hover {
+  background-color: #5a5f85;
+}
+.obras .trabajos-container__obra .trabajosObra input:active {
+  background-color: #465af1;
+  box-shadow: -2px 2px 1px #2D3047;
+}
 .obras .trabajos-container__obra .gridObra1 {
   grid-column: 1/2;
   grid-row: 1/2;

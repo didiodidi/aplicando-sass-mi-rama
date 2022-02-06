@@ -87,6 +87,13 @@
                         border: none;
                         border-radius: 20px 10px;
                         cursor: grab;
+                            &:hover{
+                                background-color: #5a5f85;
+                            }
+                            &:active{
+                                background-color: #465af1;
+                                box-shadow: -2px 2px 1px #2D3047;
+                            }
                     }
             }
             .gridObra1{
