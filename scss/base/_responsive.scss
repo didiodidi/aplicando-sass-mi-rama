@@ -34,12 +34,13 @@
     } 
 
     .bio{
-        .bio-grid{
-            display: flex;
+        display: none;
+/*         .bio-grid{
+            display: none;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-        }
+        } */
     }
 
     .trabajos{

@@ -592,11 +592,14 @@ nav .nav-li li a:hover {
     transform: scale(2);
   }
 
-  .bio .bio-grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .bio {
+    display: none;
+    /*         .bio-grid{
+                display: none;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            } */
   }
 
   .trabajos h2 {
