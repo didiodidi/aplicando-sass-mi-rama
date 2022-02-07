@@ -62,12 +62,20 @@
             input{
                 margin: 20px;
             }
+            .trabajos-volver{
+                transform: translateY(-10px);
+            }
         }
     }
     .obras{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
+        .trabajos-container__obra{
+            display: flex;
+            flex-direction: column;
+                .trabajosObra{
+                    display: flex;
+                    flex-direction: column;
+                }
+        }
     }
     
 }

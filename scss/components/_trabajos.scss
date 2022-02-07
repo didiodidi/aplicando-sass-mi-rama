@@ -4,6 +4,9 @@
     height: 100%;
     padding: 30px;
     cursor: default;
+        .trabajos-volver{
+            transform: translateY(30px)
+        }
         a {
             @extend %volver;
         }
@@ -24,6 +27,7 @@
             a{
                 transform: translateY(50px);
             }
+
             .trabajosIndex {
                 margin-bottom: 20px;
                 text-align: center;
