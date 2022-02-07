@@ -120,7 +120,14 @@
                 line-height: 23px;
                 } 
             }
-        
+        }
+    .trabajos-container__obra{
+            display: flex;
+            flex-direction: column;
+        .trabajosObra{
+            display: flex;
+            flex-direction: column;
+        }
     }
     
 }
