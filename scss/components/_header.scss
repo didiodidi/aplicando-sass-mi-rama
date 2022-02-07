@@ -30,9 +30,11 @@
             @extend %flex-nav-li;
             border-bottom: 1px solid #525881;
             li{
+                outline: 2px solid red;
                 padding: 5px;
                 margin: 5px;
                 list-style: none;
+                color: #525881;
                     a{
                         text-decoration: none;
                         &:hover{
