@@ -30,17 +30,17 @@
             @extend %flex-nav-li;
             border-bottom: 1px solid #525881;
             li{
-                outline: 2px solid red;
                 padding: 5px;
                 margin: 5px;
                 list-style: none;
+                cursor: pointer;
                 color: #525881;
-                    a{
+                    a{  
+                        color: #525881;
                         text-decoration: none;
                         &:hover{
-                            color: #525881;
-                            text-shadow: 2px 1px#d3d9fb;
-                            transition: .5s;
+                            color: #858dc0;
+                            text-shadow: 2px 2px 2px white;
                         }
                     }
                 }
