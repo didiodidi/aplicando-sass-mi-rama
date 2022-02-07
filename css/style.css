@@ -610,6 +610,12 @@ nav .nav-li li a:hover {
   .contacto .contact-form input {
     margin: 20px;
   }
+
+  .obras {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
 }
 @media only screen and (min-width: 468px) and (max-width: 768px) {
   .titulo-container .h1-h2 {
